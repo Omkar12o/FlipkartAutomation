@@ -1,6 +1,6 @@
 package com.flipkart.pages;
 
-import org.openqa.selenium.By;
+ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -30,7 +30,7 @@ public class BasePage {
 
     protected List<WebElement> waitForAllVisible(By locator) {
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
-    }
+    }   
 
 
     protected void click(By locator) {
