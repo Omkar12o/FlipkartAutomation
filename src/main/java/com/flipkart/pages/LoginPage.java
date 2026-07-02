@@ -8,7 +8,7 @@ public class LoginPage extends BasePage {
     private final By mobileOrEmailInput = By.cssSelector("input.r4vIwl, input._2IX_2-");
     private final By requestOtpBtn = By.xpath("//button[contains(text(),'Request OTP')]");
     private final By errorMessage = By.cssSelector("div.alert, div._3eF7zV");
-    private final By closeIcon = By.cssSelector("button._2KpZ6l._2doB4z");
+    private final By closeIcon = By.cssSelector("button._3KpZ6l._2doB4z");
 
     public LoginPage(WebDriver driver) {
         super(driver);
