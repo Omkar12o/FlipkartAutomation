@@ -9,7 +9,7 @@ public class CartPage extends BasePage {
 
     private final By cartItems = By.cssSelector("div._3dsJAO, div.cPHDOP,div._1AtVbE");
     private final By emptyCartMessage = By.xpath("//div[contains(text(),'empty')]");
-    private final By placeOrderBtn = By.xpath("//button[contains(text(),'PLACE ORDER')]");
+    private final By placeOrderBtn = By.xpath("//button[@type='submit'])]");
     private final By removeItemBtn = By.xpath("//div[contains(text(),'REMOVE')]");
     private final By totalAmount = By.cssSelector("div._1eXndQ, div.Z8JjpR");
     private final By incrementQtyBtn = By.cssSelector("div._28v9TX, span._3rXFFb");
